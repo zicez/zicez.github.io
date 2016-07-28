@@ -1,7 +1,6 @@
 ---
 layout: portfolio_entry
 title: Summer UROP 2016
-image: /img/folder-name/image-name.png
 ---
 
 Building a landing platform for a drone ontop of an ATRV
@@ -10,8 +9,6 @@ Building a landing platform for a drone ontop of an ATRV
 
 #### The Test Drone: AR.Drone 2
 The MERS lab has an abundance of the AR.Drone 2 from teaching a class. Additionally, the lab also has a large supply of batteries, so continuous testing can be carried out. However, the nicest feature from working with the drone is the availability of [ardrone_autonomy](http://ardrone-autonomy.readthedocs.io/en/latest/), a ROS driver for the AR. Drone 2. The framework allows me to control, access the camera, and pull data from the drones with ROS. ardrone_autonomy also abstract the control of the drone one level. Instead of having to work telling how fast each individual rotor should spin, I could tell the drone to pitch, roll, fly higher, and fly lower.  
-
-#### The
 
 ### Autonomous Landing
 This was arguably one of the most important step in the entire process even though it had nothing to do with the design of the platform. Its importance comes from the fact that without an accurate and precise landing algorithm the landing platform will never be able to latch onto the drone. Without the drone being able to land accurately within at least +- 5 inches, there was no design that could accommodate for the drone.
@@ -52,4 +49,7 @@ where x_d is desired position, x_d' is desired speed, and x_d'' is desired accel
 This controller added another term DD for acceleration. I adopted this idea and set the desire speed and acceleration to zero. This works practically like magic and the jittery disappear even with some very rough tuning on the DD parameter.
 
 ##### PID Controller
-As for the z axis, I utilized a standard PID controller.
+As for the z axis, I utilized a standard PID controller. After tuning the parameters, it works as expected.
+
+### Video
+todo: add a video of quadcopter landing.

@@ -1,9 +1,13 @@
 ---
-layout: portfolio_entry
+layout: article
 title: Summer UROP 2016
+categories: portfolio
+share: false
 ---
 
 Building a landing platform for a drone ontop of an ATRV
+
+{% include toc.html %}
 
 ### The Constraints
 

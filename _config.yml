@@ -2,8 +2,8 @@
 
 title: "Portfolio"
 description: "Showcasing my projects."
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+logo: bridge.jpg # 120x120 px default image used for Twitter summary card
+teaser: bridge.jpg # 400x250 px default teaser image used in image archive grid
 locale: en
 url:
 feed:
@@ -33,7 +33,7 @@ owner:
     ad-client:
     ad-slot:
   bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+  avatar: bio.jpg # 160x160 px image for author byline
   disqus-shortname:
 
 

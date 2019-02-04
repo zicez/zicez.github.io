@@ -3,10 +3,10 @@
 - title: About Me
   url: /about/
 
-- title: UROP Summer 2016
+- title: Portfolios
   url: /urop2016/
   excerpt: Landing platform for a quadcopter ontop of an ATRV
 
-- title: "Science Olympiad 2015: Scrambler"
-  url: /scrambler/
-  excerpt: Nationally winning device of Science Olympiad 2015
+#- title: "Science Olympiad 2015: Scrambler"
+#  url: /scrambler/
+#  excerpt: Nationally winning device of Science Olympiad 2015

@@ -22,7 +22,8 @@ This was arguably one of the most important step in the entire process even thou
 ##### Slight Hardware Modification
 For AR. Drone 2.0, it is only possible to receive image from one camera at a time. The front facing camera has a much higher resolution than the bottom facing camera. To help with the tag detection during the testing phase, the front facing camera is moved and installed next the downward facing camera.
 
-todo: insert picture.
+image:
+    feature: urop2016/1.jpg
 
 ##### Onboard detection
 The built in detection of the AR.Drone 2 is really bad. Firstly, it was almost impossible to find an image of the detected tags on AR.Drone's website or clear specifications on how the detection works in its documentations. I could only find the needed tags, the roundel tag, in a third party [website](http://www.playsheep.de/drone/downloads.html). Secondly, the detection only works if the tag is perpendicularly facing the camera. Any slight deviation in the viewing angle will not trigger the detection. This is fatal for our purpose because the drone moves by changing its pitch and row angle, so any movement by the drone will interfere with the detection.
@@ -30,19 +31,16 @@ The built in detection of the AR.Drone 2 is really bad. Firstly, it was almost i
 ##### Alvar Tags
 [ar_track_alvar](http://wiki.ros.org/ar_track_alvar) is a very sophisticated tag tracking library. It can identify and track the locations of many different tags. It's much more robust than the onboard detection allowing it to track the tags at an angle. Two tags are used to help land the drone. One is 20x20 cm and one is 7.5x7.5 cm. The large tag allows the drone to see the target from far away. As the drone approaches the target, the large tag is too big to completely fit within the view of the camera. This is when the smaller tag comes into play.
 
-todo: bundle tracking?
 
 #### Controller
 ##### TF
 The drone moves forward/backward by changing its pitch angle, and left/right by changing its roll angle. The tag is detected to be at specific a x, y, z coordinate and orientation. In order to correspond the x,y coordinate with a roll and pitch angle, a geometric transformation must be made. ROS has a library called, [tf](http://wiki.ros.org/tf), which automatically handles all the transformation for you once the setup is done.
 
-todo: add code
 
 ##### PD Controller
 The first immediate approach I took to controlling the drone is to use a PD controller for the roll and pitch angle. After spending many days tuning the parameters, the drone is able to quickly fly to the target. The position of the drone is right on top of the target. However, there remains a significant amount of jitteriness in the drone, quick and small changes in the roll and pitch angle. Eventually, the unstable drone spins out of control and crashes. Even after a significant amount of tuning, the shakiness remains.
 dx = P * (x_d-x) + D * (x') where x_d is the desired position and x' is the derivative of the error.
 
-todo: add math equation
 
 ##### PD(DD) Controller
 I came to the solution of the jittery after doing some research on the dynamic models of a quadcopter. From this [paper](http://sal.aalto.fi/publications/pdf-files/eluu11_public.pdf), I came across an equation for trajectory generation on page 18.
@@ -55,5 +53,9 @@ This controller added another term DD for acceleration. I adopted this idea and 
 ##### PID Controller
 As for the z axis, I utilized a standard PID controller. After tuning the parameters, it works as expected.
 
-### Video
-todo: add a video of quadcopter landing.
+### Landing Platform
+The platform is designed to deal with the inaccuracy of the landing process. It can lock down the drone even if the drone land off center by +- 5 inches.
+image:
+    feature: urop2016/2.jpg
+    feature: urop2016/3.jpg
+

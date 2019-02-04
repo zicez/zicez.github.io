@@ -5,7 +5,7 @@ categories: portfolio
 share: false
 image:
     feature: /wallet/3.jpg
-    teaser: /bridge/3.jpg
+    teaser: /wallet/3.jpg
 ---
 A wallet and notebook all in one.
 

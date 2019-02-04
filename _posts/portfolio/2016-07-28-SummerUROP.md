@@ -3,6 +3,8 @@ layout: article
 title: Summer UROP 2016
 categories: portfolio
 share: false
+image:
+    feature: /urop2016/2.jpg
 ---
 
 Building a landing platform for a drone ontop of an ATRV
@@ -22,8 +24,7 @@ This was arguably one of the most important step in the entire process even thou
 ##### Slight Hardware Modification
 For AR. Drone 2.0, it is only possible to receive image from one camera at a time. The front facing camera has a much higher resolution than the bottom facing camera. To help with the tag detection during the testing phase, the front facing camera is moved and installed next the downward facing camera.
 
-image:
-    feature: urop2016/1.jpg
+![][/images/urop2016/1.jpg]
 
 ##### Onboard detection
 The built in detection of the AR.Drone 2 is really bad. Firstly, it was almost impossible to find an image of the detected tags on AR.Drone's website or clear specifications on how the detection works in its documentations. I could only find the needed tags, the roundel tag, in a third party [website](http://www.playsheep.de/drone/downloads.html). Secondly, the detection only works if the tag is perpendicularly facing the camera. Any slight deviation in the viewing angle will not trigger the detection. This is fatal for our purpose because the drone moves by changing its pitch and row angle, so any movement by the drone will interfere with the detection.
@@ -55,9 +56,8 @@ As for the z axis, I utilized a standard PID controller. After tuning the parame
 
 ### Landing Platform
 The platform is designed to deal with the inaccuracy of the landing process. It can lock down the drone even if the drone land off center by +- 5 inches.
-image:
-    feature: urop2016/2.jpg
-    feature: urop2016/3.jpg
+![][/images/urop2016/2.jpg]
+![][/images/urop2016/3.jpg]
 
 Video in action of the lock [here](https://photos.app.goo.gl/BwP6fvdoG9KXTELAA)
 

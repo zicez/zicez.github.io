@@ -59,3 +59,9 @@ image:
     feature: urop2016/2.jpg
     feature: urop2016/3.jpg
 
+Video in action of the lock [here](https://photos.app.goo.gl/BwP6fvdoG9KXTELAA)
+
+### In action: Landing and Locking
+video [here](https://photos.app.goo.gl/WPRFFdFSE5jT5er37)
+
+

@@ -4,8 +4,8 @@ title: Summer UROP 2016
 categories: portfolio
 share: false
 image:
-    feature: /urop2016/2.jpg
-    teaser: /urop2016/2.jpg
+    feature: /urop2016/3.jpg
+    teaser: /urop2016/3.jpg
 ---
 
 Building a landing platform for a drone ontop of an ATRV

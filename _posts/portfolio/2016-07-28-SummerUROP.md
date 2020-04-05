@@ -23,7 +23,7 @@ This was arguably one of the most important step in the entire process even thou
 ##### Slight Hardware Modification
 For AR. Drone 2.0, it is only possible to receive image from one camera at a time. The front facing camera has a much higher resolution than the bottom facing camera. To help with the tag detection during the testing phase, the front facing camera is moved and installed next the downward facing camera.
 
-<img src="/images/urop2016/2.jpg"
+<img src="/images/urop2016/1.jpg"
      alt="urop2016"
      style="float: left; margin-right: 10px;" />
 

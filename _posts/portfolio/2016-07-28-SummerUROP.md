@@ -62,10 +62,11 @@ The platform is designed to deal with the inaccuracy of the landing process. It 
 |:-------------------------:|:-------------------------:|
 |<img width="1604" alt="urop2" src="/images/urop2016/2.jpg">|<img width="1604" alt="urop3" src="/images/urop2016/3.jpg">|
 
-
-Video in action of the lock [here](https://photos.app.goo.gl/BwP6fvdoG9KXTELAA)
+Here's a video of the locking mechanism:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dkHjD81klUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### In action: Landing and Locking
-[Video](https://photos.app.goo.gl/WPRFFdFSE5jT5er37)
+Here's a video of the automatic landing and locking process. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V8ua_VvhEio" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 

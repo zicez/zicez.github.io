@@ -7,7 +7,7 @@ image:
     feature: /wallet/3.jpg
     teaser: /wallet/3.jpg
 ---
-A wallet and notebook all in one.
+A wallet and notebook all in one
 
 #### What and Why
 My old wallet was wearing old and falling apart, so I decided to make a new one. I love having a notebook on me, so I can always jot down ideas whereever I go. Thus, I decided to make a wallet that also has a small built in notebook. 

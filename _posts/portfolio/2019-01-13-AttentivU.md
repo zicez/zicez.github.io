@@ -20,6 +20,6 @@ The design of the electrodes is more straight forward. There's quite a bit of re
 
 <img width="1604" alt="CAD" src="/images/attentivU1/1.png">
 
-You can read more about this project here: https://www.media.mit.edu/projects/attentivu/overview/
+You can read more about this project here: <https://www.media.mit.edu/projects/attentivu/overview/>
 
 I'm currently working on the second iteration of this project. When that iteration is published, I can talk more about my roles. 

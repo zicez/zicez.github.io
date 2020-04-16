@@ -3,9 +3,9 @@
 - title: About Me
   url: /about.md
 
-#- title: Portfolio
-#  url: /portfolio/
-#  excerpt: "Things I've designed and built"
+- title: Portfolio
+  url: /portfolio/
+  excerpt: "Things I've designed and built"
 
 - title: Resume
   url: /files/resume.pdf

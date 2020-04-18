@@ -1,11 +1,7 @@
 # Site navigation links
 
 - title: About Me
-  url: /about.md
-
-- title: Portfolio
-  url: /portfolio/
-  excerpt: "Things I've designed and built"
+  url: /about/
 
 - title: Resume
   url: /files/resume.pdf

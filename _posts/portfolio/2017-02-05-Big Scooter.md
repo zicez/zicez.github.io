@@ -14,7 +14,7 @@ Since coming to MIT, I have always wanted to build an electric scooter. All the 
 
 The frame is made out of scrap pieces of metal pipes, 8020 aluminum, and waterjetted aluminum plate. The scooter has a rear suspension system. The back wheel is placed on a separate pivot joint. A spring holds the rear wheel against the base. This allows the back wheel to swing around the pivot point and absorb energy from any sudden ground level change.
 
-We wanted to ride the vehicle both standing up and sitting down. To do this, we made the handle bar really high - think Ape Hangers of a motorcycle. This means we can sit on the scooter and reach up onto the handle bar, or comfortable stand on the scooter and can still comfortably reach.
+We wanted to ride the vehicle both standing up and sitting down. To do this, we made the handle bar really high - think Ape Hangers of a motorcycle. This means we can sit on the scooter and reach up onto the handle bar, or stand and can still comfortably reach the handle bar.
 
 <img width="1604" alt="bridge_1" src="/images/bigscooter/2.jpg">
 

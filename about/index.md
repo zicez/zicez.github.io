@@ -4,4 +4,7 @@ title: About Me
 share: false
 ---
 
-I'm currently a class of 2019 Mechanical Engineering student at MIT.
+
+<img alt="profilepic" src="/images/aboutme.jpg">
+
+I graduated from MIT class of 2019 in Mechanical Engineering.

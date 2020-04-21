@@ -10,9 +10,9 @@ image:
 Building an electric scooter
 
 #### Design
-Since coming to MIT, I have always wanted to build an electric scooter. All the cool kids seem to have one, and it would be a really convient way to get around campus. I decided to build one with a couple of friends. We wanted to do something different and not just rehashed the same design.
+Since coming to MIT, I have always wanted to build an electric scooter. All the cool kids have one, and it would be a really convient way to get around campus. I decided to build one with two friends. We wanted to do something different and not just rehashed the same design.
 
-The frame is made out of scrap pieces of metal pipes, 8020 aluminum, and waterjetted aluminum plate. The scooter has a rear suspension system. The back wheel is placed on a separate pivot joint
+The frame is made out of scrap pieces of metal pipes, 8020 aluminum, and waterjetted aluminum plate. The scooter has a rear suspension system. The back wheel is placed on a separate pivot joint. A spring holds the rear wheel against the base. This allows the back wheel to swing around the pivot point and absorb energy from any sudden ground level change.
 
 We wanted to ride the vehicle both standing up and sitting down. To do this, we made the handle bar really high - think Ape Hangers of a motorcycle. This means we can sit on the scooter and reach up onto the handle bar, or comfortable stand on the scooter and can still comfortably reach.
 

@@ -27,17 +27,3 @@ Finally, when it has collected all the balls or after a certain amount of time (
 |<img width="1604" alt="bridge_1" src="/images/maslab/1.jpg">|<img width="1604" alt="bridge_2" src="/images/maslab/2.jpg">|
 
 |<img width="1604" alt="bridge_3" src="/images/maslab/3.jpg">|<img width="1604" alt="bridge_4" src="/images/maslab/4.jpg">|
-
-#### In Action
-I unfortunately did not collect any video of the fully working robot. Here are two videos of the robot partially working.
-
-Collecting:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4bo-fo4mORs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Depositing:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L7YV1Svg2pM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-     
-
-
-

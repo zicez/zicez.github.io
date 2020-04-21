@@ -10,16 +10,16 @@ image:
 Building an electric scooter
 
 #### Design
-Since coming to MIT, I have always wanted to build an electric scooter. All the cool kids seem to have one 
-MASLAB is a competion in which teams will build a fully autonomous robot to complete a challlege. Our team, No Motorcycles Allowed, built Mr. Motorcycle. The year challenge involves collecting color balls and then depositing them into the corresponding goals. Our team won first that year. 
+Since coming to MIT, I have always wanted to build an electric scooter. All the cool kids seem to have one, and it would be a really convient way to get around campus. I decided to build one with a couple of friends. We wanted to do something different and not just rehashed the same design.
 
-#### Mechanism Design
-The design of the robot is very simple. We opted for simplicity because we really only had 3.5 weeks to put together a robot. It has two powered wheels in front and one ball caster in the back. In the front of the robot, we had a collection mechanism which is a roller made with rubber bands. The roller is powered by a DC motor geared down to the approriate rotation speed. The roller with the rubber bands allows the robot to grip onto the wooden balls. Behind the roller is an inclined ramp, so the balls are always guaranteed to be against the roller. This allows the roller to push the ball out when needed. We built a tower up above from the robot, so we can attach cameras higher up. This allowed the robot to have a better vantage views over the field. Additionally, we mounted proximity sensors around the perimeter of the robot.
+The frame is made out of scrap pieces of metal pipes, 8020 aluminum, and waterjetted aluminum plate. 
 
-#### Operating Algorithm
-The robot operates in a very simple algorithm. It starts out in the collection state. It moves in a straight line with the collector in front constantly spinning. When it detects that it is near a wall with the proximity sensors, it will spins away from the wall and then continue to move in a straight line. As it travels randomly around the arena, the camera will try to detect for colored balls on the field, and when it does, it moves toward the ball to collect it. 
+In our scooter, we wanted to ride the vehicle both standing up and sitting down. To do this, we made the handle bar really high - think Ape Hangers of a motorcycle. This means we can sit on the scooter and reach up onto the handle bar, or comfortable stand on the scooter and can still comfortably reach.
 
-Finally, when it has collected all the balls or after a certain amount of time (a time out), the robot then switch to the depositing state. It stops wall bouncing and starts wall following. As it moves around the perimeter of the arena, it searches for the corresponding goal to deposit the balls. Once it found the right goal, it goes into a fixed maneuver to deposit the balls. It turns toward the goal then back far away from the goal. This allows the robot to better align with the goal. It then finally goes head first into the goal and then reverse the roller to push the balls toward the goal.  
+
+The scooter has a rear suspension system. The back wheel is placed on a separate pivot joint
+
+The installed electric motor is rated for 2kW. The motor drives the back wheel through a chain and sprocket system. After riding the scooter for a while, we noticed that the scooter will forcibly slow down if you let go on the throttle. To solve this problem, we added a freewheel on the hub of the motor. 
 
 #### Images
 

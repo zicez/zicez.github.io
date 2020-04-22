@@ -4,8 +4,8 @@ title: Electric Violin
 categories: portfolio
 share: false
 image:
-    feature: /violin/3.jpg
-    teaser: /violin/3.jpg
+    feature: violin/3.jpg
+    teaser: violin/3.jpg
 ---
 Converting my acoustic violin into an electric violin. 
 

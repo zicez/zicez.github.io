@@ -5,7 +5,7 @@ share: false
 ---
 
 
-<img alt="profilepic" src="/images/about.jpg" width="250">
+<img alt="profilepic" width="250" src="/images/about.jpg">
 
 My name is Thanh Nha Nguyen. I was born in Vietnam and emmigrated to the US when I was nine. I graduated from MIT class of 2019 in Mechanical Engineering.
 

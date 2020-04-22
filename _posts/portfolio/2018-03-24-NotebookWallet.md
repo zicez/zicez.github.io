@@ -16,9 +16,9 @@ My old wallet was wearing old and falling apart, so I decided to make a new one.
 
 | | |
 |:-------------------------:|:-------------------------:|
-|<img width="1604" alt="bridge_1" src="/images/wallet/1.jpg">|<img width="1604" alt="bridge_2" src="/images/wallet/2.jpg">|<img width="1604" alt="bridge_3" src="/images/wallet/3.jpg">|
+|<img alt="bridge_1" src="/images/wallet/1.jpg">|<img alt="bridge_2" src="/images/wallet/2.jpg">|<img alt="bridge_3" src="/images/wallet/3.jpg">|
 
-|<img width="1604" alt="bridge_4" src="/images/wallet/4.jpg">|<img width="1604" alt="bridge_5" src="/images/wallet/5.jpg">|<img width="1604" alt="bridge_6" src="/images/wallet/6.jpg">|
+|<img alt="bridge_4" src="/images/wallet/4.jpg">|<img alt="bridge_5" src="/images/wallet/5.jpg">|<img alt="bridge_6" src="/images/wallet/6.jpg">|
 
 
 

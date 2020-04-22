@@ -26,7 +26,7 @@ For AR. Drone 2.0, it is only possible to receive image from one camera at a tim
 <img src="/images/urop2016/1.jpg"
      alt="urop2016"
      style="float: left; margin-right: 10px;"
-     height="860" />
+     height="240" />
 
 ##### Onboard detection
 The built in detection of the AR.Drone 2 is really bad. Firstly, it was almost impossible to find an image of the detected tags on AR.Drone's website or clear specifications on how the detection works in its documentations. I could only find the needed tags, the roundel tag, in a third party [website](http://www.playsheep.de/drone/downloads.html). Secondly, the detection only works if the tag is perpendicularly facing the camera. Any slight deviation in the viewing angle will not trigger the detection. This is fatal for our purpose because the drone moves by changing its pitch and row angle, so any movement by the drone will interfere with the detection.

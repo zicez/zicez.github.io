@@ -42,7 +42,7 @@ After wounding the coils, I dip the coils into melted wax. Online research infor
 |<img width="800" alt="lasercut" src="/images/violin/wax.jpg">|<img width="800" alt="" src="/images/violin/afterwax.jpg">|
 
 Here is the picture of the magnetic pickup fully assembled and mounted on the violin:
-|<img width="1604" alt="lasercut" src="/images/violin/assembled.png">|<img width="1604" alt="" src="/images/violin/onviolin.jpg">|
+|<img width="800" alt="lasercut" src="/images/violin/assembled.png">|<img width="800" alt="" src="/images/violin/onviolin.jpg">|
 
 #### Modeling the magnetic pickup
 The pickup can be modeled as an LRC circuit. The coil is a loop of wires, so it will have inductance. The long length of wire needed to create the coil has resistance. Lastly, the close packing of the wires within the coil creates capacitance. This LRC circuit has self-resonance.

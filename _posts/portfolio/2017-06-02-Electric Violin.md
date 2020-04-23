@@ -25,9 +25,9 @@ For the sound to be captured equally on each of the violin string, we need to en
 
 To solve this issue, ￼four threaded standoffs are placed on top of a bar magnet. Each standoff is spaced out similarly to how the strings are spaced out. A bolt is inserted into each of the standoff. It’s important that the standoffs and the bolts are magnetically permeable. The inserted bolt can adjust its own height by screwing down and up the standoff. With this setup, we can transmit the magnetic field from the bar magnet up through the standoffs and bolt. Since the bolt is height adjustable, we can ensure that an equal magnetic field is produced at each string.
 
-<img alt="adjustable" src="images/violin/standoff_adjust.png">
+<img alt="adjustable" src="/images/violin/standoff_adjust.png">
 
-<img alt="adjustable" src="images/violin/adjustable_height.jpg">
+<img alt="adjustable_height" src="/images/violin/adjustable_height.jpg">
 
 Next, two coils are wounded using thin copper wires (I forgot which gauge they were). This was incredibly frustrating as the thin copper wires can easily break and that means starting to wound the coil from scratch again. To do this step, I chuck the frame onto my hand drill and very slowly spins the frame while feeding the copper wire. 
 

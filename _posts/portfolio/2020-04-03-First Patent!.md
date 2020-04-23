@@ -15,3 +15,6 @@ When I worked at XYZ Robotics, I was in charge of designing new end-of-arm tooli
 
 #### Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/51VlrMnLEAk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+A more recent video of it with a later stage prototype. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G8bH_3qJipA?start=99" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

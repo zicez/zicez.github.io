@@ -93,7 +93,7 @@ The tone control circuit is designed to set the midpoint to around 1 KHz with th
 #### Final Amplication
 Lastly, because the tone control network is a passive network, there is loss in the circuit. Thus the signal is boosted again through a non-inverting amplifier configuration. This works in the exact same way as the previous amplifier. The gains of the two amplifiers were chosen so that the output this stage would be line level or 1 Vrms. 
 
-<img width="1604" alt="" src="/images/violin/block3.png">
+<img width="900" alt="" src="/images/violin/block3.png">
 
 ### Video
 I originally started the project as a side project receiving funding from ProjX. However, the project fits within the coursework of 6.101 (Analog Electronics Lab), so I turnt it into my final project. You can see a recording of the electronic violin here with other fancy effects done by my teammates. 

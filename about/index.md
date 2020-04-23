@@ -4,9 +4,8 @@ title: About Me
 share: false
 ---
 
-Rotated photos using imagemagick convert command
 <p align="center">
-  <img height="600" src="/images/about.png">
+  <img height="400" src="/images/about.png">
 </p>
 
 My name is Thanh Nha Nguyen. I was born in Vietnam and emmigrated to the US when I was nine. I graduated from MIT class of 2019 in Mechanical Engineering.

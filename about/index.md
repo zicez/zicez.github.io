@@ -6,7 +6,6 @@ share: false
 
 Rotated photos using imagemagick convert command
 <p align="center">
-
   <img height="600" src="/images/about.png">
 </p>
 

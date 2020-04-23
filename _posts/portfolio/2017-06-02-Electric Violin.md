@@ -17,7 +17,7 @@ The magnetic pickup is composed of a magnet and a coil. The pickup is placed und
 <img width="1604" alt="bridge_1" src="/images/violin/pickup.jpg">
 
 #### Building the pickup
-The frame of the pickup is made from laser cut acrylic and steel threaded standoffs. I had access to free acrylic, and the steel standoffs were cheaper. 
+The frame of the pickup is made from laser cut acrylic and steel threaded standoffs. I had access to free acrylic, and the steel standoffs are cheaper. 
 
 |<img width="1604" alt="lasercut" src="/images/violin/lasercut.jpg">|<img width="1604" alt="" src="/images/violin/standoff.jpg">|
 
@@ -27,8 +27,13 @@ To solve this issue, ￼four threaded standoffs are placed on top of a bar magne
 
 <img alt="adjustable" src="images/violin/standoff_adjust.png">
 
-<img alt="adjustable" src="images/violin/adjustable_height.png">
+<img alt="adjustable" src="images/violin/adjustable_height.jpg">
 
+Next, two coils are wounded using thin copper wires (I forgot which gauge they were). This was incredibly frustrating as the thin copper wires can easily break and that means starting to wound the coil from scratch again. To do this step, I chuck the frame onto my hand drill and very slowly spins the frame while feeding the copper wire. 
+
+ The magnetic pickup captures any stray electromagnetic wave especially the 60 Hz AC hum from any outlet. This induces a constant hum in the signal. To cancel out this common mode noise, a humbucker configuration of coil is used. Essentially, instead of one big coil capturing the signal, we used two small coils -- one wounded clockwise and one wounded counterclockwise. The common mode noise appears over both coils and is attenuated. However, each individual string produces a local change in magnetic field and is not equally picked up by both coils. The violin has four strings. Under string G and D there is one coil wound clockwise. For string A and E, there is another coil underneath wound counterclockwise.
+
+<img alt="adjustable" src="images/violin/humbuckle.png">
 
 
 #### Images

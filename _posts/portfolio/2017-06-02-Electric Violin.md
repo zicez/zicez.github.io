@@ -33,7 +33,7 @@ Next, two coils are wounded using thin copper wires (I forgot which gauge they w
 
  The magnetic pickup captures any stray electromagnetic wave especially the 60 Hz AC hum from any outlet. This induces a constant hum in the signal. To cancel out this common mode noise, a humbucker configuration of coil is used. Essentially, instead of one big coil capturing the signal, we used two small coils -- one wounded clockwise and one wounded counterclockwise. The common mode noise appears over both coils and is attenuated. However, each individual string produces a local change in magnetic field and is not equally picked up by both coils. The violin has four strings. Under string G and D there is one coil wound clockwise. For string A and E, there is another coil underneath wound counterclockwise.
 
-<img alt="adjustable" src="images/violin/humbuckle.png">
+<img alt="adjustable" src="/images/violin/humbuckle.png">
 
 
 #### Images

@@ -52,7 +52,7 @@ If the resonance is within the hearing frequency (20 - 20kHz), the voltage out w
 The pickup cannot just have a lot of windings to have a big output, but it also has to have a small enough amount of windings to create a self resonance outside the hearing frequency. In order to arrive at the correct amount of windings, an iterative process can be taken, but due to a time constraint, I just eyeballed the number of windings based on other design. I also could have tried to model the inductance and The final design uses a N52 grade neodymium bar magnet and two coils of 4000 turns.
 
 RLC circuit model of the pickup:
-<img width="1604" alt="" src="/images/violin/rlc.png">
+<img width="900" alt="" src="/images/violin/rlc.png">
 
 #### Output Result
 From a rough hearing test, the higher frequencies, playing on the E string of the violin, have a slight roll off in volume. It’s noticeable softer than sounds played on the G, D, and A strings (lower frequency). The output signal at a medium playing level is 200 mV peak-to-peak. 
@@ -78,10 +78,10 @@ The tone control is replica of an Baxandall tone control network. First, the sig
 The operation of the circuit can be splitted into two parts. The left half of the circuit controls the bass response while the right half of the circuit controls the treble response. The circuit works by varying the cutoff frequency of the RC passive filter. The cutoff frequency is changed by varying the resistance of the potentiometer.
 
 The left circuit is the bass control circuit of the Baxandall control network. The right circuit is the treble control.
-|<img width="1604" alt="bass_side" src="/images/violin/bass_side.png">|<img width="1604" alt="treble_side" src="/images/violin/treble_side.png">|
+|<img width="800" alt="bass_side" src="/images/violin/bass_side.png">|<img width="800" alt="treble_side" src="/images/violin/treble_side.png">|
 
 For example, if we look at just the bass control part. On the left, we see the bass control at full boost. On the right, we see the bass control at full cut.
-|<img width="1604" alt="bass1" src="/images/violin/bass_full.png">|<img width="1604" alt="bass2" src="/images/violin/bass_cut.png">|
+|<img width="800" alt="bass1" src="/images/violin/bass_full.png">|<img width="1604" alt="800" src="/images/violin/bass_cut.png">|
 
 The tone control circuit is designed to set the midpoint to around 1 KHz with the two cut off frequencies to be at 10 Hz and and 100 KHz, each two decades away from the midpoint, when the potentiometer is half way turned. 
 

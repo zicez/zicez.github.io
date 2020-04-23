@@ -4,10 +4,12 @@ title: Electric Violin
 categories: portfolio
 share: false
 image:
-    feature: violin/3.jpg
-    teaser: violin/3.jpg
+    feature: violin/main.jpg
+    teaser: violin/main.jpg
 ---
 Converting my acoustic violin into an electric violin. 
+
+### The Magnetic Pickup
 
 #### High Level Design
 There are a couple of different methods to convert an acoustic instrument to an electric instrument. For this project, I built an magnetic pickup. This is the same technology that enabled the electric guitar. 
@@ -35,11 +37,30 @@ Next, two coils are wounded using thin copper wires (I forgot which gauge they w
 
 <img alt="adjustable" src="/images/violin/humbuckle.png">
 
+After wounding the coils, I dip the coils into melted wax. Online research informs me that without this step there will be some microphonics noises due to the coil vibrating. 
 
-#### Images
+|<img width="1604" alt="lasercut" src="/images/violin/wax.jpg">|<img width="1604" alt="" src="/images/violin/afterwax.jpg">|
 
-| | |
-|:-------------------------:|:-------------------------:|
-|<img width="1604" alt="bridge_1" src="/images/maslab/1.jpg">|<img width="1604" alt="bridge_2" src="/images/maslab/2.jpg">|
+Here is the picture of the magnetic pickup fully assembled and mounted on the violin:
+|<img width="1604" alt="lasercut" src="/images/violin/assembled.png">|<img width="1604" alt="" src="/images/violin/onviolin.jpg">|
 
-|<img width="1604" alt="bridge_3" src="/images/maslab/3.jpg">|<img width="1604" alt="bridge_4" src="/images/maslab/4.jpg">|
+#### Modeling the magnetic pickup
+The pickup can be modeled as an LRC circuit. The coil is a loop of wires, so it will have inductance. The long length of wire needed to create the coil has resistance. Lastly, the close packing of the wires within the coil creates capacitance. This LRC circuit has self-resonance.
+
+If the resonance is within the hearing frequency (20 - 20kHz), the voltage out would not be balanced across the full range of the violin. There would be frequencies where the sound would be louder and other softer. This brings forth a design constraint with the pickup.
+
+The pickup cannot just have a lot of windings to have a big output, but it also has to have a small enough amount of windings to create a self resonance outside the hearing frequency. In order to arrive at the correct amount of windings, an iterative process can be taken, but due to a time constraint, I just eyeballed the number of windings based on other design. I also could have tried to model the inductance and The final design uses a N52 grade neodymium bar magnet and two coils of 4000 turns.
+
+RLC circuit model of the pickup:
+<img width="1604" alt="" src="/images/violin/rlc.png">
+
+#### Output Result
+From a rough hearing test, the higher frequencies, playing on the E string of the violin, have a slight roll off in volume. It’s noticeable softer than sounds played on the G, D, and A strings (lower frequency). The output signal at a medium playing level is 200 mV peak-to-peak. 
+During the winding process, I accidentally missed counted, making one coil about 500 turns higher than the other one. Thus, I did not perfectly attenuated the 60 Hz AC hum. The noise signal is measured at 7 mV peak-to-peak in a normal room environment. However, the noise signal can get as high as 50 mV peak-to-peak when the magnetic pickup is near a transformer. 
+
+### Preamplication Circuit
+A preamplication circuit amplify and filter the signal produced by the magnetic pickup. The output of the magnetic pickup is roughly 200 mVpp. We want to boost this signal up to line level which is 1 Vrms. Next, since human hearing is only between 20-20 kHz, we want to filter to only this frequency range. 
+Lastly, we want to give the performer more control over their instrument. The circuit also also has a tone control. It attenuates or boosts the signal of the bass frequencies (10 Hz - 1 kHz) and the treble frequencies (1 kHz - 20 kHz).
+
+<img width="1604" alt="" src="/images/violin/circuit.png">
+

@@ -32,7 +32,7 @@ owner:
   google:
     ad-client:
     ad-slot:
-  bio: bio2.jpg
+  bio:
   avatar: bio2.jpg # 160x160 px image for author byline
   disqus-shortname:
 

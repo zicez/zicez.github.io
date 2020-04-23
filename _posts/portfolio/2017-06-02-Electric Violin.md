@@ -54,7 +54,7 @@ The pickup cannot just have a lot of windings to have a big output, but it also 
 
 RLC circuit model of the pickup:
 
-<img width="900" alt="" src="/images/violin/rlc.png">
+<img width="400" alt="" src="/images/violin/rlc.png">
 
 #### Output Result
 From a rough hearing test, the higher frequencies, playing on the E string of the violin, have a slight roll off in volume. It’s noticeable softer than sounds played on the G, D, and A strings (lower frequency). The output signal at a medium playing level is 200 mV peak-to-peak. 
@@ -86,7 +86,7 @@ The left circuit is the bass control circuit of the Baxandall control network. T
 
 For example, if we look at just the bass control part. On the left, we see the bass control at full boost. On the right, we see the bass control at full cut.
 
-|<img width="800" alt="bass1" src="/images/violin/bass_full.png">|<img width="1604" alt="800" src="/images/violin/bass_cut.png">|
+|<img width="800" alt="bass1" src="/images/violin/bass_full.png">|<img width="800" alt="bass_cut" src="/images/violin/bass_cut.png">|
 
 The tone control circuit is designed to set the midpoint to around 1 KHz with the two cut off frequencies to be at 10 Hz and and 100 KHz, each two decades away from the midpoint, when the potentiometer is half way turned. 
 

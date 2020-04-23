@@ -64,3 +64,33 @@ Lastly, we want to give the performer more control over their instrument. The ci
 
 <img width="1604" alt="" src="/images/violin/circuit.png">
 
+#### Input Conditionings
+The preamplification circuit is very simple. It’s just an op-amp in a non-inverting amplifier configuration with some capacitors to act as filters. One important aspect of this amplifier is its high input impedance, R1, which is at 10 MOhms. This is important because the output impedance of the magnetic pickup is in the 10s of kOhms, so to preserve the voltage signal, we have R1 at 10 MOhms -- two order of magnitudes larger than the output impedance of the pickup as is typically done for a preamplifier. With a high input impedance, the input current into the amplifier is low, so the signal will not be distorted from resistive lost.
+
+<img width="1604" alt="" src="/images/violin/block1.png">
+
+Another advantage of a high input impedance is that it will act as a voltage divider along with the output impedance of the magnetic pickup. In effect, this high input impedance also equilibrate the output signal of the pickup even if the resonance is in the hearing frequency. The over gain of the amplifier is determined by R3 and R2. As for filtering the signal, C1 controls the high pass filter and C3 controls the low pass filter. 
+
+#### Tone Control
+The tone control is replica of an Baxandall tone control network. First, the signal is fed into the network using a potentiometer RV1. This acts as an overall volume control, so it has to be a logarithmic potentiometer. In this network, the bass is controlled by RV2, and the treble is controlled by RV3.  
+<img width="1604" alt="" src="/images/violin/block2.png">
+
+The operation of the circuit can be splitted into two parts. The left half of the circuit controls the bass response while the right half of the circuit controls the treble response. The circuit works by varying the cutoff frequency of the RC passive filter. The cutoff frequency is changed by varying the resistance of the potentiometer.
+
+The left circuit is the bass control circuit of the Baxandall control network. The right circuit is the treble control.
+|<img width="1604" alt="bass_side" src="/images/violin/bass_side.png">|<img width="1604" alt="treble_side" src="/images/violin/treble_side.png">|
+
+For example, if we look at just the bass control part. On the left, we see the bass control at full boost. On the right, we see the bass control at full cut.
+|<img width="1604" alt="bass1" src="/images/violin/bass_full.png">|<img width="1604" alt="bass2" src="/images/violin/bass_cut.png">|
+
+The tone control circuit is designed to set the midpoint to around 1 KHz with the two cut off frequencies to be at 10 Hz and and 100 KHz, each two decades away from the midpoint, when the potentiometer is half way turned. 
+
+#### Final Amplication
+Lastly, because the tone control network is a passive network, there is loss in the circuit. Thus the signal is boosted again through a non-inverting amplifier configuration. This works in the exact same way as the previous amplifier. The gains of the two amplifiers were chosen so that the output this stage would be line level or 1 Vrms. 
+
+<img width="1604" alt="" src="/images/violin/block3.png">
+
+### Video
+I originally started the project as a side project receiving funding from ProjX. However, the project fits within the coursework of 6.101 (Analog Electronics Lab), so I turnt it into my final project. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6DJT3gBw73Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

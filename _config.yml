@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title: "Portfolio"
+title: "Thanh Nha Nguyen"
 description: "Showcasing my projects."
 logo: bio.jpg # 120x120 px default image used for Twitter summary card
-teaser: bio.jpg # 400x250 px default teaser image used in image archive grid
+teaser: bio2.jpg # 400x250 px default teaser image used in image archive grid
 locale: en
 url:
 feed:

@@ -91,6 +91,6 @@ Lastly, because the tone control network is a passive network, there is loss in 
 <img width="1604" alt="" src="/images/violin/block3.png">
 
 ### Video
-I originally started the project as a side project receiving funding from ProjX. However, the project fits within the coursework of 6.101 (Analog Electronics Lab), so I turnt it into my final project. 
+I originally started the project as a side project receiving funding from ProjX. However, the project fits within the coursework of 6.101 (Analog Electronics Lab), so I turnt it into my final project. You can see a recording of the electronic violin here with other fancy effects done by my teammates. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6DJT3gBw73Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

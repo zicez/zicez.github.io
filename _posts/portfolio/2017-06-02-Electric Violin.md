@@ -39,7 +39,7 @@ Next, two coils are wounded using thin copper wires (I forgot which gauge they w
 
 After wounding the coils, I dip the coils into melted wax. Online research informs me that without this step there will be some microphonics noises due to the coil vibrating. 
 
-|<img width="800" alt="wax" src="/images/violin/wax.jpg">|<img width="800" alt="afterwax" src="/images/violin/afterwax.jpg">|
+|<img width="800" alt="wax" src="/images/violin/wax.jpg">|<img width="800" alt="afterwax" src="/images/violin/after_wax.jpg">|
 
 Here is the picture of the magnetic pickup fully assembled and mounted on the violin:
 

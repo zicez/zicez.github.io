@@ -16,7 +16,7 @@ There are a couple of different methods to convert an acoustic instrument to an 
 
 The magnetic pickup is composed of a magnet and a coil. The pickup is placed underneath the strings of a violin. It’s important to make sure that the strings are magnetically permeable i.e. steel and not gut core. As the string vibrates to make sound, a small current is induced in the string as it moves in the magnetic field of the magnet. The small induced current generates its own magnetic field. This generated field produces a voltage in the coil. As the string moves to make sound, a copy of that movement is generated as a changing voltage within the coil.
 
-<img width="1604" alt="bridge_1" src="/images/violin/violin.jpg">
+<img width="860" alt="bridge_1" src="/images/violin/violin.jpg">
 
 #### Building the pickup
 The frame of the pickup is made from laser cut acrylic and steel threaded standoffs. I had access to free acrylic, and the steel standoffs are cheaper. 

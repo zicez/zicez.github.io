@@ -10,9 +10,9 @@ Rotated photos using imagemagick convert command
 </p>
 
 Original photos download straight from google photos
-<img src="/images/about2.jpg>
+<img src="/images/about2.jpg">
 
-<img src="/images/about3.jpg>
+<img src="/images/about3.jpg">
 
 My name is Thanh Nha Nguyen. I was born in Vietnam and emmigrated to the US when I was nine. I graduated from MIT class of 2019 in Mechanical Engineering.
 

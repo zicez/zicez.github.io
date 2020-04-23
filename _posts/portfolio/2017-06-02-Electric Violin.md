@@ -16,7 +16,7 @@ There are a couple of different methods to convert an acoustic instrument to an 
 
 The magnetic pickup is composed of a magnet and a coil. The pickup is placed underneath the strings of a violin. It’s important to make sure that the strings are magnetically permeable i.e. steel and not gut core. As the string vibrates to make sound, a small current is induced in the string as it moves in the magnetic field of the magnet. The small induced current generates its own magnetic field. This generated field produces a voltage in the coil. As the string moves to make sound, a copy of that movement is generated as a changing voltage within the coil.
 
-<img width="860" alt="bridge_1" src="/images/violin/violin.jpg">
+<img width="420" alt="bridge_1" src="/images/violin/violin.jpg">
 
 #### Building the pickup
 The frame of the pickup is made from laser cut acrylic and steel threaded standoffs. I had access to free acrylic, and the steel standoffs are cheaper. 
@@ -39,10 +39,10 @@ Next, two coils are wounded using thin copper wires (I forgot which gauge they w
 
 After wounding the coils, I dip the coils into melted wax. Online research informs me that without this step there will be some microphonics noises due to the coil vibrating. 
 
-|<img width="800" alt="lasercut" src="/images/violin/wax.jpg">|<img width="800" alt="" src="/images/violin/afterwax.jpg">|
+|<img width="800" alt="wax" src="/images/violin/wax.jpg">|<img width="800" alt="afterwax" src="/images/violin/afterwax.jpg">|
 
 Here is the picture of the magnetic pickup fully assembled and mounted on the violin:
-|<img width="800" alt="lasercut" src="/images/violin/assembled.png">|<img width="800" alt="" src="/images/violin/onviolin.jpg">|
+|<img width="400" alt="assembled" src="/images/violin/assembled.png">|<img width="400" alt="onviolin" src="/images/violin/onviolin.jpg">|
 
 #### Modeling the magnetic pickup
 The pickup can be modeled as an LRC circuit. The coil is a loop of wires, so it will have inductance. The long length of wire needed to create the coil has resistance. Lastly, the close packing of the wires within the coil creates capacitance. This LRC circuit has self-resonance.
